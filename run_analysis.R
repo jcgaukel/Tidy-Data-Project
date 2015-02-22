@@ -46,7 +46,7 @@ main <- function(){
   
   # create tidy data frame and write it to a CSV file
   tidy <- aggregate(. ~ activity.name + subject, data = merged, FUN = mean)
-  write.table(tidy, file = "./tidy.txt", row.name=FALSE, sep = ",")
+  write.table(tidy, file = "./tidy.txt", row.name=FALSE)
   
   # clean up the old unused data frames leaving only the merged & tidy data frames in memory
   remove(activity.labels, x.colnames, keepcols)
