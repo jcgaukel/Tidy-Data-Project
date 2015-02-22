@@ -6,6 +6,7 @@ The data originally came from [http://archive.ics.uci.edu/ml/datasets/Human+Acti
 The [run_analysis.R](https://github.com/jcgaukel/Tidy-Data-Project/blob/master/run_analysis.R) script can be used to process the raw data files as outlined in the [README.md](https://github.com/jcgaukel/Tidy-Data-Project/blob/master/README.md) file.
 
 ### Variables
+All measurements are normalized, and therefore are unitless.  For specific on measurements, see documentation included with the data files.
 
 | Variable Name | Variable Number | Description | Variable Type | Values |
 | ------------------------------------- | :-------------------------------------: | ------------------------------------- | ------------------------------------- | ------------------------------------- |

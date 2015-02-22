@@ -44,6 +44,8 @@ The run_analysis.R script assumes the data file, [getdata_projectfiles_UCI HAR D
                 total_acc_z_train.txt
 ```
 
+The script will read in the appropriate data files, add subject id and activity information, and combine the data into one dataset.  It will then create s tidy dataset from the combined one and write it to disk.
+
 ###  Required Packes
 The **plyr** package is required to run the script.
 
